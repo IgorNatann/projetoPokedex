@@ -4,7 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css" media="screen">
+
+    <!-- Importando Css -->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/cartao.css">
+    <link rel="stylesheet" href="src/css/listagem.css">
+    <!-- Importando Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
     <title>Pokédex</title>
 </head>
 
@@ -18,7 +28,7 @@
             <div class="cartoes-pokemon">
 
                 <!-- Div Pai contendo o Cartão Pikachu -->
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-eletrico">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -56,7 +66,7 @@
                 </div>
 
                 <!-- Div Pai contendo o Cartão Bulbasaur -->
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-planta">
                     <!-- Div contendo informações Head dos pokemons-->
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -95,7 +105,7 @@
                 </div>
 
                 <!-- Div Pai contendo o Cartão Charmander -->
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-fogo">
                     <!-- Div contendo informações Head dos pokemons-->
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -134,7 +144,7 @@
                 </div>
 
                 <!-- Div Pai contendo o Cartão Gayrados -->
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-agua">
                     <!-- Div contendo informações Head dos pokemons-->
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -173,7 +183,7 @@
                 </div>
 
                 <!-- Div Pai contendo o Cartão Gengar -->
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-trevas">
                     <!-- Div contendo informações Head dos pokemons-->
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -212,7 +222,7 @@
                 </div>
 
                 <!-- Div Pai contendo o Cartão Dragonite -->
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-dragao">
                     <!-- Div contendo informações Head dos pokemons-->
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -255,27 +265,27 @@
             <!-- Nav Pai contendo listagem dos pokemons-->
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="/src/imagens/cabeca-pikachu.png" alt="cabeça do pikachu">
                         <span>Pikachu</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="/src/imagens/cabeca-bulbasaur.png" alt="cabeça do bulbasaur">
                         <span>Bulbasaur</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="/src/imagens/cabeca-charmander.png" alt="cabeça do charmander">
                         <span>Charmander</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="/src/imagens/cabeca-gyarados.png" alt="cabeça do gyarados">
                         <span>Gayrados</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="/src/imagens/cabeca-gengar.png" alt="cabeça do gengar">
                         <span>Gengar</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="/src/imagens/cabeca-dragonite.png" alt="cabeça do dragonite">
                         <span>Dragonite</span>
                     </li>
