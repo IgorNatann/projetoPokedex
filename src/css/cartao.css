@@ -2,10 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000000;
     font-size: 40px;
     background-color: #ffffff;
-    
+}
+
+.header .span1 {
+    color: #000000;
+}
+
+.header .span2 {
+    color: #ff0000;
 }
 
 .cartao-pokemon {
@@ -79,7 +85,7 @@
 }
 
 .tipo-eletrico {
-    background-color: #fcc719 ;
+    background-color: #F7C103 ;
 }
 
 .tipo-planta {
@@ -103,7 +109,7 @@ background-color: #c29791 ;
 }
 
 .tipo-psychic {
-    background-color: #8E12FF;
+    background-image: url("/src/imagens/psycho1.jpg");
 }
 
 .tipo-passaro {
