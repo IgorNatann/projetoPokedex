@@ -1,3 +1,33 @@
+/*
+------* Funcionalidades Necessárias *-------
+
+1 - Quando cliclar no pokemon da listagem, esconder o cartao do pokémon e mostrar o cartão correspondente ao que foi selecionado na listagem.
+
+2 - Para buscar os elementos dentro do document para verificar qual está sendo chamado, Utilizaremos dois elementos, 1-Listagem 2- Cartão do pokemon.
+
+3 - Armazenar em duas variáveis os elementos para poder trabalhar com os mesmo.
+
+4 - Precisaremos trabalhar com o evento de clique feito pelo úsuario na listagem de pokemons.
+
+ ----------
+- remover a classe aberto
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // querySelectorAll é usado para setar quais os atributos queremos pegar dentro da div, nesse caso estamos pegando todos os pokemons que estão na listagem e cards
 const listaSelecaoPokemons = document.querySelectorAll('.pokemon');
